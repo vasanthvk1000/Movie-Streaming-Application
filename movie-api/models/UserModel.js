@@ -6,6 +6,7 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true,
     max: 50,
+    max: 50
   },
   likedMovies: Array,
 });
