@@ -113,6 +113,9 @@ export default React.memo(function Card({ index, movieData, isLiked = false }) {
                   <li key={index}>{genre}</li>
                 ))}
               </ul>
+              <div>
+                <h1>movie</h1>
+              </div>
             </div>
           </div>
         </div>
